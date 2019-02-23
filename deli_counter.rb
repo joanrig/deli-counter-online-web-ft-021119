@@ -6,7 +6,7 @@ def line(katz_deli)
     katz_deli.each_with_index |name, index|
       status<< "#{index + 1}. #{name}"
     end
-    
+
   else
     puts "The line is currently empty."
   end
