@@ -19,7 +19,7 @@ def take_a_number(katz_deli, new_name)
 end
 
 def now_serving(katz_deli)
-  if katz_deli.length = 0
+  if katz_deli.length == 0
     puts "The line is empty."
   else
     puts "Now serving #{katz.deli.unshift}"
