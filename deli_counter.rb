@@ -1,4 +1,4 @@
-def line(katz_deli)
+def line
   if !line
     puts "The line is currently empty."
   else
