@@ -1,4 +1,5 @@
 def line
+  katz_deli = []
   if !line
     puts "The line is currently empty."
   else
