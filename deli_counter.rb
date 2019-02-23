@@ -17,3 +17,11 @@ def take_a_number(katz_deli, new_name)
   katz_deli<< new_name
   puts "Welcome, #{new_name}. You are number #{katz_deli.length} in line."
 end
+
+def now_serving
+  if katz_deli.length = 0
+    puts "The line is empty."
+  else
+    puts "Now serving #{katz.deli.unshift}"
+  end
+end
