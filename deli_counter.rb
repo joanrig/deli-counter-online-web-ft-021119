@@ -15,4 +15,5 @@ end
 
 def take_a_number(katz_deli, new_name)
   katz_deli<< new_name
+  puts "#{new_name}, you are currently number #{katz_deli.length} in line."
 end
