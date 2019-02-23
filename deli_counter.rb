@@ -1,5 +1,6 @@
 require 'pry'
 
+katz_deli = []
 def line(katz_deli)
   status = "The line is currently:"
   if katz_deli.length > 0
